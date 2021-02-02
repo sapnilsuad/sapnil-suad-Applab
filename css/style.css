@@ -1,0 +1,647 @@
+/********************
+        Global CSS Code
+*******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,li,button,input{
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+
+/* header section css code start from here */
+
+
+
+
+.header-section{
+    background: url(../img/bg.png); 
+    height: 990px;
+    background-repeat: no-repeat;
+    background-position: center;     
+}
+.navbar{
+    margin-top: 10px;
+}
+.nav-link{
+    color: #242f51 !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 23px !important;
+}
+.nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background: #2500f9;
+    display: block;
+    margin: auto;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: all .5s;
+}
+.btn-outline-success{
+    color: #fff;
+    background: #2500f9;
+    font-weight: 700;
+    font-size: 16px; 
+    padding: 11px 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid #2500f9; 
+}
+.btn-outline-success:hover{
+    color: #2500f9;
+    background: transparent;
+    border: 2px solid #2500f9; 
+    transition: ease-in-out .3s;
+} 
+.banner{
+    padding: 220px 0;   
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.banner .icon{
+    border-radius: 50px;
+    background: #e1eaed; 
+    display: inline-block;  
+    padding-right: 50px; 
+    color: #242f51;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner img{
+    background: #fda925;   
+    border-radius: 50px;
+    padding: 7px; 
+    display: inline-block; 
+    margin-right: 14px; 
+}
+.banner h1{
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #616368;
+    margin-bottom: 40px;
+}
+.banner .btn-outline-success{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.banner a{
+    color: #2500f9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* header section css code end from here */
+
+
+
+
+/* sponsor section css code start from here */
+
+
+.sponsor-section{
+    text-align: center; 
+    padding: 50px 0 150px;
+}
+.sponsor-section .owl-carousel .item img{
+    width: 100%;
+    padding: 10px 40px;
+    margin: auto;
+}
+.sponsor-section .owl-carousel .item .special{
+    margin-top: 40px;
+}
+.sponsor-section p{
+    color: #242f51;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 30px;
+}
+
+/* sponsor section css code end from here */
+
+
+
+/* awesome section css code start from here */
+
+.awesome-section{
+    padding: 100px 0;
+}
+.img-left{
+    transform: translateX(-150px);
+}
+.img-right{
+    transform: translateX(80px);
+}
+.awesome-section h1{
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    padding-right: 200px;
+    margin-bottom: 40px;
+}
+.awesome-section p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+.awesome-section .details-1,
+.awesome-section .details-2{
+    margin-bottom: 20px;
+}
+.awesome-section .details-1 h5{
+    color: #f55767;
+    font-size: 20px;
+    font-weight: 600;
+}
+.awesome-section .details-1 p,
+.awesome-section .details-2 p,
+.awesome-section .details-3 p{
+    margin-right: 50px;
+}
+.awesome-section .details-2 h5{ 
+    color: #2563ff;
+    font-size: 20px;
+    font-weight: 600; 
+}
+.awesome-section .details-3 h5{ 
+    color: #40975f;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* awesome section css code end from here */
+
+
+/* smart section css code start from here */
+
+.smart-section{
+    padding: 50px 0 100px; 
+}
+.smart-section h1{
+    border-right: 2px solid #b9b9b8;
+    color: #242f51;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 100px;  
+}
+.smart-section p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 100px;
+    padding-top: 30px; 
+}
+
+/* smart section css code end from here */
+
+/* jack section css code start from here */
+
+
+.jack-section{
+    padding: 100px 0 150px; 
+}
+.jack-section .desc-1,
+.jack-section .desc-2,
+.jack-section .desc-3{
+    padding-right: 70px;
+    padding-left: 10px;
+}
+.jack-section .desc-1 h6{
+    color: #f55767;
+    font-size: 20px;
+    font-weight: 600;
+}
+.jack-section .desc-2 h6{
+    color: #2563ff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.jack-section .desc-3 h6{
+    color: #40975f;
+    font-size: 20px;
+    font-weight: 600; 
+}
+.jack-section p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* jack section css code end from here */
+
+/* design section css code start from here */
+
+.design-section{
+    padding: 100px 0;
+}
+.design-section h1{
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    padding-right: 180px; 
+    margin-bottom: 30px;
+    padding-top: 170px;
+}
+.design-section p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+.design-section .btn-outline-success{
+    margin-left: 0 !important;
+}
+
+
+/* design section css code end from here */
+
+
+/* choose section css code start from here */
+
+.choose-section{
+    padding: 100px 0 50px;
+    text-align: center;
+}
+.choose-section .title{
+    text-align: center;
+}
+.choose-section .title h1{
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    padding: 0 310px;
+    margin-bottom: 30px;
+}
+.choose-section .title p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 230px;
+    margin-bottom: 70px;
+}
+.choose-section .col-md-4{
+    margin-bottom: 70px;
+}
+.choose-section .col-md-4 img{
+    margin-bottom: 30px;
+}
+.choose-section .col-md-4 h6{
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+.choose-section .col-md-4 p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 40px;  
+}
+
+
+/* choose section css code end from here */
+
+
+/* ultimate section css code start from here */
+
+.ultimate-section{
+    padding: 20px 0 100px;
+}
+.ultimate-section .col-md-12 h1{
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+.ultimate-section .col-md-12 p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 100px;
+    margin-bottom: 60px;
+}
+.ultimate-section .col-md-6 img{
+    margin-bottom: 30px;
+}
+.ultimate-section .col-md-6 h6{
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+.ultimate-section .col-md-6 p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.ultimate-section .right{
+    padding-left: 50px; 
+}
+.ultimate-section .btn-outline-success{
+    margin-left: 0 !important;
+    margin-top: 20px;
+}
+
+/* ultimate section css code end from here */
+
+
+/* pricing section css code start from here */
+
+.pricing-section{
+    padding: 100px 0;
+    text-align: center;
+}
+.pricing-section .col-md-12 h1{
+    font-size: 36px;
+    color: #242f51;
+    font-weight: 600;
+    padding: 0 310px;
+    margin-bottom: 30px;
+}
+.pricing-section .col-md-12 p{
+    color: #616368;
+    font-size: 16px;
+    font-weight: 400; 
+    padding: 0 270px;
+    margin-bottom: 50px;
+}
+.pricing-section .trigger{
+    padding: 2px;
+    border-radius: 50px;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.pricing-section .trigger .btn-3{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+    background: transparent;
+    color: #616368;
+}
+.pricing-section .trigger .btn-2{
+    border: none;
+    background: #2500f9;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+}
+.pricing-section .trigger button{
+    outline: none; 
+    padding: 10px 38px;
+    border-radius: 50px;   
+}
+.pricing-section .price-left,
+.pricing-section .price-right{
+    border: 1px solid #ebebeb;
+    width: 313px;
+    height: 600px;
+    margin: auto;
+    padding: 0 !important; 
+}
+.pricing-section .col-md-6 .head{
+    background: #f5f7fa;
+    text-align: center;
+    height: 230px; 
+}
+.pricing-section .col-md-6 .head span{
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51; 
+}
+.pricing-section .col-md-6 .head p:nth-child(1){
+    padding-top: 30px;
+}
+.pricing-section .col-md-6 .head p{
+    color: #999ca5;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.pricing-section .col-md-6 .head h5{
+    font-size: 20px;
+    color: #242f51;
+    font-weight: 600;
+}
+.pricing-section .col-md-6 .body li{
+    list-style: none; 
+    margin-left: -30px;
+    padding: 20px 0;
+}
+.pricing-section .col-md-6 .body li a{
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pricing-section .price-right a{
+    display: block;
+    color: #2500f9;
+    margin-top: 10px; 
+}
+.pricing-section .price-right{
+    height: 630px !important; 
+}
+.pricing-section .price-left{
+    transform: translateY(30px);
+}
+.pricing-section .col-md-6:hover{
+    box-shadow: 1px 2px 26px #a7a7a7;
+    transition: ease-in-out .2s; 
+}
+
+/* pricing section css code end from here */
+
+
+/* client section css code start from here */
+
+.client-section{
+    padding: 100px 0;
+}
+
+.client-section .right h1{
+    font-size: 40px;
+    color: #242f51;
+    font-weight: 600;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.client-section .right p{
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 400; 
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+.client-section .icon i{
+    color: #ffcc00;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.client-section .detail h3{
+    font-size: 20px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 20px; 
+}
+.client-section .detail p{
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 400; 
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+.client-section .name .col-md-8{ 
+    padding: 30px; 
+}
+.client-section .name .col-md-8 h6{
+    font-size: 18px;
+    color: #242f51;
+    font-weight: 600;
+}
+.client-section .name .col-md-2 i{
+    padding-top: 30px; 
+    color: #2500f9;
+    font-size: 22px;
+} 
+
+/* client section css code end from here */
+
+
+
+/* faq section css code start from here */
+.faq-section{
+    padding: 100px 0; 
+    text-align: center; 
+}
+.faq-section h1{
+    font-size: 40px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq-section p{
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 70px; 
+    padding: 0 240px;
+}
+
+.accordion{
+    text-align: left;  
+}
+.accordion-button:not(.collapsed) { 
+    color: #242f51; 
+    background-color: #f5f7fa !important; 
+}
+.accordion-body{
+    font-size: 20px;
+    font-weight: 600;
+    color: #242f51; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+/* faq section css code end from here */
+
+
+/* app section css code start from here */
+.app-section{
+    padding: 50px 0;
+}
+.app-section h1{ 
+    margin-top: 30px;
+    font-size: 48px;
+    color: #242f51;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.app-section p{
+    color: #999ca5;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 30px;
+}
+
+/* app section css code end from here */
+
+
+/* footer section css code start from here */
+
+footer{
+    background: #09142e;
+    text-align: center;
+    padding: 50px 0;
+}
+footer ul{
+    margin-left: -30px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px; 
+}
+footer img{
+    margin-bottom: 40px;
+}
+footer .link a{
+    color: #fff;
+    padding: 0 5px; 
+}
+footer .link{
+    margin-bottom: 40px;
+
+}
+footer .fa{
+    font-size: 40px;
+    color: #273043;
+    margin-bottom: 40px;
+
+}
+footer .fa:hover{
+    color: #fff;
+    transition: all .2s;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 40px;
+}
+
+
+/* footer section css code end from here */
+
+
+
+
+
+/***************
+font-family: 'Poppins', sans-serif; 
+***************/
