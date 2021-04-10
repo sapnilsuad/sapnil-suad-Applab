@@ -1,7 +1,7 @@
 /********************
         Global CSS Code
 *******************/
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6,p,span,a,li,button,input{
     font-family: 'Poppins', sans-serif;  
 }
 
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 
 
 /* header section css code start from here */
@@ -21,12 +24,12 @@ h1,h2,h3,h4,h5,h6,p,span,a,li,button,input{
 
 
 .header-section{
-    background: url(../img/bg.png); 
+    background: url(../img/bg.png);  
     height: 990px;
     background-repeat: no-repeat;
     background-position: center;     
 }
-.navbar{
+.navbar{ 
     margin-top: 10px;
 }
 .nav-link{
@@ -116,19 +119,19 @@ h1,h2,h3,h4,h5,h6,p,span,a,li,button,input{
 
 
 /* sponsor section css code start from here */
+ 
 
-
-.sponsor-section{
+.sponsor-section{ 
     text-align: center; 
-    padding: 50px 0 150px;
+    padding: 50px 0 150px;  
 }
 .sponsor-section .owl-carousel .item img{
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 40px;   
     margin: auto;
 }
 .sponsor-section .owl-carousel .item .special{
-    margin-top: 40px;
+    margin-top: 40px; 
 }
 .sponsor-section p{
     color: #242f51;
@@ -642,6 +645,78 @@ footer p{
 
 
 
-/***************
-font-family: 'Poppins', sans-serif; 
-***************/
+
+
+
+
+
+/* Responsive Code */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 760px) and (max-width: 1024px) {
+    
+    .header-section {
+        height: auto;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+  

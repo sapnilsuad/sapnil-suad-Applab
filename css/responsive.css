@@ -1,0 +1,476 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */ 
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */ 
+    
+  }
+  
+  /*  
+    ##Device = Tablets, Ipads (portrait) 
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 760px) and (max-width: 1024px) { 
+   
+    body{
+      overflow-x: hidden;  
+    }
+    .banner{
+      padding: 50px 0 !important;
+    }
+    .header-section .col-md-5 .img-fluid{
+      margin-top: 40px !important;
+    }
+    .sponsor-section {
+      padding: 50px 0 !important;
+    }
+    .sponsor-section .owl-carousel .item .special{
+      margin-top: 10px !important; 
+    }
+    .awesome-section {
+      padding: 20px 0 !important;
+    }
+    .awesome-section .img-left {  
+      transform: translateX(0px);
+      margin-top: 100px !important; 
+    }
+    .awesome-section h1 {  
+      padding-right: 0 !important;
+      margin-bottom: 20px !important;
+    }
+    .awesome-section p {
+      padding-right: 0px !important;
+      margin-bottom: 20px !important 
+    }
+    .smart-section h1 {
+      font-size: 34px !important;
+      padding-right: 20px !important;  
+    }
+    .smart-section p {
+      padding-right: 0px !important;
+      padding-top: 50px !important;
+    }
+    .jack-section {
+      padding: 40px 0 !important;
+    }
+    .jack-section .desc-1, .jack-section .desc-2, .jack-section .desc-3 {
+      padding-right: 0px !important;
+      padding-left: 10px !important; 
+    }
+    .img-left {
+      margin-top: 40px !important;
+      transform: translateX(0px) !important;
+    }
+    .design-section h1 { 
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+      padding-top: 0px !important;
+    }
+    .choose-section {
+      padding: 0px 0 50px !important;
+    }
+    .choose-section .title h1 {
+      padding: 0 !important;
+    }
+    .choose-section .title p {
+      padding: 0px 100px !important;
+    }
+    .choose-section .col-md-4 p {
+      padding: 0px !important;
+    }
+    .img-right { 
+      margin-top: 150px !important;
+      transform: translateX(0px) !important;
+    }
+    .ultimate-section .col-md-12 h1 {
+      padding-right: 0px !important;
+    }
+    .ultimate-section .col-md-12 p {
+      padding-right: 0px !important;
+      margin-bottom: 0px !important;
+    }
+    .ultimate-section .right {
+      padding-left: 0px !important;
+    }
+    .ultimate-section {
+      padding: 20px 0 0px !important;
+    }
+    .pricing-section {
+      padding: 50px 0 !important; 
+    }
+    .pricing-section .col-md-12 h1 {
+      padding: 0px 100px !important; 
+      margin-bottom: 15px !important;
+    }
+    .pricing-section .col-md-12 p {
+      padding: 0 80px !important;
+      margin-bottom: 20px !important;
+    }
+    .pricing-section .trigger {
+      margin-bottom: 0px !important;
+    }
+    .pricing-section .price-left, .pricing-section .price-right {
+      width: 500px !important;
+      padding: 0 !important;  
+      margin-bottom: 50px !important;
+    } 
+    .client-section .img-left{ 
+      margin-top: 150px !important ;
+    }
+    .client-section .right h1 {
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+    } 
+    .client-section .right p {
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+    } 
+    .client-section .detail p {
+      padding-right: 0px !important;
+      margin-bottom: 20px !important; 
+    } 
+    .client-section .name .col-md-2 img{  
+      margin-top: 6px !important;
+    }
+    .client-section .name .col-md-8 { 
+      padding: 0px !important;
+    } 
+    .client-section .name .col-md-2 i {
+      padding-top: 15px !important;
+    } 
+    .client-section {
+      padding: 50px 0 !important;
+    } 
+    .faq-section {
+      padding: 0 !important;
+    } 
+    .faq-section h1 {
+      font-size: 36px;
+    } 
+    .faq-section p { 
+      margin-bottom: 20px !important;
+      padding: 0 100px !important;
+    } 
+    .app-section .img-fluid {
+      margin-top: 85px !important;
+    } 
+    footer .sep{
+      padding: 0 !important;
+    }
+    footer p {
+      margin-top: 0px !important; 
+    } 
+
+
+
+
+
+
+    
+
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px 
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) { 
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+ 
+    
+    body{
+      overflow-x: hidden;  
+    }
+    .header-section{ 
+      background: url(../img/bg.png);  
+      height: auto !important; 
+      background-repeat: no-repeat;
+      background-position: center;     
+      background-size: cover !important;
+    } 
+    .banner{
+      padding: 50px 0 !important;
+    }
+    .banner .icon {
+      padding-right: 20px !important;
+    } 
+    .banner h1 {
+      font-size: 32px !important ;
+      text-align: center !important; 
+    } 
+    .sel{   
+      text-align: center !important ;   
+    } 
+    .sel{
+      text-align: center !important;
+    } 
+    .sel1 button{  
+      display: block !important; 
+      margin: auto !important ;
+    }
+    .sel1 a{ 
+      margin-top: 20px !important;  
+      display: block;
+      text-align: center !important;  
+    } 
+    .banner img {  
+      margin-left: -9px !important;
+    } 
+    .sponsor-section .owl-carousel .item img{
+      width: 150% !important;  
+      padding: 10px 10px !important;   
+      margin: auto !important;  
+    }  
+    .sponsor-section p {
+      margin-bottom: 15px !important; 
+    } 
+    .banner p {
+      font-size: 14px !important;
+      margin-bottom: 20px !important;
+      text-align: center !important;
+      padding: 0 10px !important;
+    }
+    .header-section .col-md-5 .img-fluid{
+      margin-top: 0px !important;
+    }
+    .sponsor-section {
+      padding: 30px 0 !important;
+    }
+    .sponsor-section .owl-carousel .item .special{
+      margin-top: 10px !important; 
+    }
+    .awesome-section {
+      padding: 0 !important;
+    }
+    .awesome-section .details-1,
+    .awesome-section .details-2,
+    .awesome-section .details-3{
+      text-align: center !important;
+    }
+    .awesome-section .details-1 p, 
+    .awesome-section .details-2 p, 
+    .awesome-section .details-3 p { 
+      margin-right: 0px !important;
+    }
+    .smart-section h1 {
+      border-right: none !important;
+      border-bottom: 2px solid #b9b9b8 !important; 
+      padding-bottom: 20px !important;  
+    }
+    .awesome-section .img-left {  
+      transform: translateX(0px);
+      margin-top: 0px !important; 
+    }
+    .awesome-section h1 {  
+      font-size: 24px !important;
+      text-align: center;
+      padding-right: 0 !important;
+      margin-bottom: 20px !important;
+    }   
+    .awesome-section p {
+      text-align: center;
+      padding-right: 0px !important;
+      margin-bottom: 20px !important 
+    }
+    .smart-section h1 {
+      font-size: 34px !important;
+      padding-right: 20px !important;  
+    }
+    .smart-section {
+      padding: 50px 0 20px !important;
+    }
+    .smart-section p {
+      padding-right: 0px !important;
+      padding-top: 0px !important;
+    }
+    .jack-section {
+      padding: 40px 0 !important;
+    }
+    .jack-section .desc-1, .jack-section .desc-2, .jack-section .desc-3 {
+      padding-right: 0px !important;
+      padding-left: 10px !important; 
+    }
+    .img-left {
+      margin-top: 40px !important;
+      transform: translateX(0px) !important;
+    }
+    .design-section h1 { 
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+      padding-top: 0px !important;
+    }
+    .jack-section .desc-1,
+    .jack-section .desc-2,
+    .jack-section .desc-3{
+      text-align: center !important;
+    }
+    .choose-section {
+      padding: 0px 0 50px !important;
+    }
+    .choose-section .title h1 {
+      padding: 0 !important;
+    }
+    .design-section p {
+      padding-right: 0px !important;
+    } 
+    .choose-section .title p {
+      padding: 0px !important;
+    }
+    .choose-section .col-md-4 p {
+      padding: 0px !important;
+    }
+    .img-right { 
+      margin-top: 0px !important;
+      transform: translateX(0px) !important;
+    }
+    .ultimate-section .col-md-12 h1 {
+      padding-right: 0px !important;
+      text-align: center !important;
+    }
+    .ultimate-section .col-md-12 p {
+      text-align: center !important;
+      padding-right: 0px !important;
+      margin-bottom: 0px !important;
+    }
+    .ultimate-section .right {
+      padding-left: 0px !important;
+    }
+    .ultimate-section .col-md-6{
+      text-align: center !important;
+    }
+    .ultimate-section .lit{
+      text-align: center;
+    }
+    .ultimate-section {
+      padding: 20px 0 0px !important;
+    }
+    .pricing-section {
+      padding: 50px 0 !important; 
+    }
+    .pricing-section .col-md-12 h1 {
+      padding: 0px !important; 
+      margin-bottom: 15px !important;
+    }
+    .pricing-section .col-md-12 p {
+      padding: 0px !important;
+      margin-bottom: 20px !important;
+    }
+    .pricing-section .trigger {
+      margin-bottom: 0px !important;
+    }
+    .pricing-section .price-left, .pricing-section .price-right {
+      width: 300px !important;
+      padding: 0 !important;  
+      margin-bottom: 50px !important;
+    } 
+    .client-section .img-left{ 
+      margin-top: 0px !important ;
+      margin-bottom: 30px !important;
+    }
+    .client-section .right h1 {
+      font-size: 28px !important;
+      text-align: center !important;
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+    } 
+    .client-section .right p {
+      text-align: center !important;
+      padding-right: 0px !important;
+      margin-bottom: 20px !important;
+    } 
+    .client-section .icon{
+      text-align: center !important;
+    }
+    .client-section .detail p {
+      padding-right: 0px !important;
+      margin-bottom: 20px !important; 
+    } 
+    .client-section .name .col-md-2{
+      text-align: center;
+    }
+    .client-section .name .col-md-8 h6 {
+      text-align: center !important; 
+    }
+    .client-section .name .col-md-2 img{  
+      margin-top: 6px !important;   
+    }
+    .client-section .name .col-md-8 { 
+      padding: 0px !important; 
+    } 
+    .client-section .name .col-md-2 i {
+      padding-top: 0px !important;
+    } 
+    .client-section { 
+      padding: 50px 0 !important;
+    } 
+    .faq-section {
+      padding: 0 !important;
+    } 
+    .faq-section h1 {
+      font-size: 28px;
+    } 
+    .app-section h1 {
+      margin-top: 15px !important;
+      font-size: 36px !important;
+    } 
+    .faq-section p { 
+      margin-bottom: 20px !important;
+      padding: 0px !important;
+    } 
+    .app-section .img-fluid {
+      width: 80% !important;
+      margin-top: 10px !important;
+      margin-bottom: 20px !important;
+    } 
+    footer .sep{
+      padding: 0 !important;
+    }
+    footer p {
+      margin-top: 0px !important; 
+    } 
+
+    
+    
+  }
